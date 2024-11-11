@@ -14,7 +14,6 @@ Database:
   SqLiteName: "uriWarnings.db"
 
 Config:
-  MaxWarnings: 5
   Permission: "uriwarnings.warn"
   NoPermission: "&c&lBLAD: &7Nie masz praw do tej komendy."
   HelpMessage: "&8{>} &7Poprawne uzycie: &6/Ostrzez add (NICK) (POWOD)&7,&6 /Ostrzez remove (NICK) (ID)&7,&6 /Ostrzez info (NICK)&7."
