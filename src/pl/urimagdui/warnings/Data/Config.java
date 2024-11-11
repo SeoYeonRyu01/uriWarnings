@@ -16,7 +16,6 @@ public class Config {
     public static String DATABASE_MYSQL_NAME;
     public static String DATABASE_SQLITE_NAME;
 
-    public static int Config_MaxWarnings;
     public static String Config_Permission;
     public static String Config_NoPermission;
     public static String Config_HelpMessage;
@@ -40,8 +39,7 @@ public class Config {
         DATABASE_MYSQL_PASS = main.getString("Database.Password");
         DATABASE_MYSQL_NAME = main.getString("Database.Name");
         DATABASE_SQLITE_NAME = main.getString("Database.SqLiteName");
-
-        Config_MaxWarnings = main.getInt("Config.MaxWarnings");
+        
         Config_Permission = main.getString("Config.Permission");
         Config_NoPermission = main.getString("Config.NoPermission");
         Config_HelpMessage = main.getString("Config.HelpMessage");
