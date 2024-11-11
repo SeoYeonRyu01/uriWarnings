@@ -1,0 +1,31 @@
+# UriWarnings v1 by SeoYeonRyu
+
+# Dostepne znaki: {>}, {.}, {<3}, {X}, {Y}, {:>}, {:<}, {::>}
+
+Database:
+  Mode: "sqlite"
+  TablePrefix: "uriWarnings_"
+  Host: "localhost"
+  Port: 3306
+  User: "root"
+  Password: ""
+  Name: "mc"
+  SqLiteName: "uriWarnings.db"
+
+Config:
+  MaxWarnings: 5
+  Permission: "uriwarnings.warn"
+  NoPermission: "&c&lBLAD: &7Nie masz praw do tej komendy."
+  HelpMessage: "&8{>} &7Poprawne uzycie: &6/Ostrzez add (NICK) (POWOD)&7,&6 /Ostrzez remove (NICK) (ID)&7,&6 /Ostrzez info (NICK)&7."
+  Warned: "&8{>} &7Gracz &6{PLAYER} &7dostal ostrzezenie przez &6{ADMIN}&7. Powod: &6{REASON}&7."
+  WarnRemoved: "&8{>} &7Pomyslnie usunales graczowi &6{PLAYER} &7ostrzezenie o numerze ID: &6{ID}&7."
+  WarnLook: "&8{ID}. &7{WARN}"
+  Warnings:
+    - "&8=========== &7{PLAYER} &8============"
+    - ""
+    - "&8{>} &7Liczba ostrzezen: &6{AMOUNT}&7."
+    - "&8{>} &7Lista Ostrzezen:"
+    - "&7{WARNINGS}"
+    - "&8=========== &7{PLAYER} &8============"
+
+# UriWarnings v1

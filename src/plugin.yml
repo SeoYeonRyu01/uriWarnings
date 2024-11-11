@@ -1,0 +1,11 @@
+name: uriWarnings
+author: UriMagdui
+version: 1.0
+main: pl.urimagdui.warnings.Main
+commands:
+  ostrzez:
+    description: Komenda dla administratorow pozwalajaca nadawac ostrzezenia, usuwac je oraz sprawdzac innych graczy.
+    aliases: [warn, warnadmin, warnadm]
+  ostrzezenia:
+    description: Komenda pozwalajaca sprawdzic swoje ostrzeeznia.
+    aliases: [warns, warnings]
