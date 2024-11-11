@@ -62,13 +62,13 @@ public class WarnCommand implements CommandExecutor {
                 Player p = Bukkit.getServer().getPlayerExact(args[1]);
 
                 if (p == null) {
-                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nieistnieje.");
+                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nie istnieje.");
                 }
 
                 User u = UserManager.getUser(p);
 
                 if (u == null) {
-                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nieistnieje w bazie danych.");
+                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nie istnieje w bazie danych.");
                 }
 
                 int id = Integer.parseInt(args[2]);
@@ -87,13 +87,13 @@ public class WarnCommand implements CommandExecutor {
                 Player p = Bukkit.getServer().getPlayerExact(args[1]);
 
                 if (p == null) {
-                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nieistnieje.");
+                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nie istnieje.");
                 }
 
                 User u = UserManager.getUser(p);
 
                 if (u == null) {
-                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nieistnieje w bazie danych.");
+                    return Util.sendMessage(sender, "&cBLAD: &7Taki gracz nie istnieje w bazie danych.");
                 }
 
                 for (String s : Config.Config_Warnings) {
