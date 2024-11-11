@@ -2,6 +2,7 @@
 
 # Dostepne znaki: {>}, {.}, {<3}, {X}, {Y}, {:>}, {:<}, {::>}
 
+# Dostepne Mode: "mysql", "sqlite"
 Database:
   Mode: "sqlite"
   TablePrefix: "uriWarnings_"
